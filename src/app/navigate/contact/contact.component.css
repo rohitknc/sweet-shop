@@ -1,0 +1,46 @@
+.img1
+{
+background-image:url("/assets/swe.jfif") ;
+height:250px;
+background-position: center;
+background-size: cover;
+text-align: center;
+}
+.content{
+    position:relative;
+    top:90px;
+    color:rgb(83, 8, 212);
+    background-color: aqua;
+    width: fit-content;
+    left:30%;
+    text-align: center;
+    opacity: 0.7;
+    align-items: center;
+    border-radius: 10px;
+}
+.pk
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    background-color:beige;
+    align-items: center;
+}
+.l
+{
+    width: 120px;
+    height: 110px;
+    background-color: aliceblue;
+    text-align: center;
+}
+span{
+    font-size: 12px;
+    top:-12px;
+    position: relative;
+}
+i{
+    font-size: 30px;
+    color: rgb(0, 255, 119);
+}

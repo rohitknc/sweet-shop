@@ -1,0 +1,50 @@
+.main
+{
+padding: 10px 10px;
+position: relative;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+left:70px;
+top:10px;
+gap: 14px;
+width: 650px;
+height: 370px;
+background-color: rgb(170, 231, 255);
+}
+h2{
+    position: relative;
+    text-align: center;
+    color: crimson;
+    top:10px;
+    text-decoration: underline;
+}
+.knc
+{
+    position: relative;
+    
+}
+input
+{
+    padding: 5px;
+    border: 1px solid #d4d6cc;
+}
+input:focus{
+    outline:none;
+}
+input:focus
+{
+    box-shadow: 0 0 0 .1rem #cfac0e;
+}
+button{
+    width: 120px;
+    padding: 5px;
+    border: none;
+    background-color: #57e879;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+button:hover{
+    box-shadow: 0 0 0 .1rem #dcaa06;
+}

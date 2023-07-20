@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+<body>
+<div class="con">
+    
+    <div class="main">
+        <h4>login</h4>
+        
+        <div class="login">
+           
+            <form>
+               
+            <div class="k"><input type="text" placeholder="username" size="27" [(ngModel)]="r.email" name="email"></div>
+            <div class="k"><input type="password" placeholder="password" size="27" [(ngModel)]="r.password" name="password "></div>
+           
+            <button (click)="login()">login</button>
+            <p>dont you have an account ?</p>
+            <a routerLink="/navigate/Regi">Create here</a>
+            
+            </form> 
+        </div>
+    </div>
+</div>
+</body>
+</html>

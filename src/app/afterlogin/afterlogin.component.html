@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><span></span>
+                 <a routerLink="/afterlogin">Home</a> </li>
+                <li><span></span><a routerLink="/afterlogin/profile">Profile</a></li>
+               <li><span></span><a routerLink="/afterlogin/viewproducts">View products</a></li>
+                <li><span></span><a routerLink="/afterlogin/viewbookings">view bookings </a></li>
+                <li><span></span><a routerLink="/navigate/login" (click)="lk()">logout</a></li>
+
+             </ul>
+        </div>
+        <div class="jk"><router-outlet></router-outlet></div>
+    </body>
+</html>

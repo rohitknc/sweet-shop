@@ -1,0 +1,48 @@
+div h2{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    top:20px;
+    color: coral;
+}
+table
+{
+    border-collapse: collapse;
+    position: relative;
+    top:50px;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 0.9em;
+    left:17%;
+    min-width: 400px;
+}
+table thead tr th{
+    position: relative;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    text-align:center ;
+    background-color: rgb(242, 108, 41);
+
+}
+table tbody tr td{
+    position: relative;
+    padding: 12px 15px;
+    border-bottom: 2px solid rgb(171, 172, 168);
+}
+button{
+    background-color: rgb(105, 238, 96);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 9px;
+}
+.manju
+{
+    position: relative;
+    text-align: center;
+    top:100px;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(128, 126, 123);
+
+}

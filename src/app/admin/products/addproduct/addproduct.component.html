@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <h3>Add product</h3>
+        <div class="main1">
+            <div class="sub">
+                 <label>product name: </label><br>
+                <input type="text" placeholder="enter product name" size="100" [(ngModel)]="r.pname" name="pname">
+            </div>
+        
+           <div class="sub">
+            <label>product catagary: </label><br>
+           <input type="text" placeholder="enter catagary " size="100" [(ngModel)]="r.pcatagary" name="pcatagary">
+       </div>
+       <div class="sub">
+        <label>product company: </label><br>
+       <input type="text" placeholder="enter company name" size="100" [(ngModel)]="r.pcompany" name="pcompany">
+   </div>
+   <div class="sub">
+    <label>product price(Rs.): </label><br>
+   <input type="text" placeholder="enter product price" size="100" [(ngModel)]="r.pprice" name="pprice">
+</div>
+<div><button (click)="submit()">submit</button></div>
+        </div>
+    </body>
+</html>

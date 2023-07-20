@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li class="nor"><span></span><a routerLink="/admin">dashboard</a></li>
+               <li class="new"><a routerLink="/admin/products">products</a><button (click)="clicked1()"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+                <div *ngIf="knc" class="sub" >
+                   <ul>
+                    <li><a routerLink="/admin/products/viewproduct">viewproducts</a></li>
+                    <li><a routerLink="/admin/products/addproduct">addproduct</a></li>
+                   </ul> 
+                </div>
+            </li>
+                <li class="new"><a routerLink="/admin/catagiry">catagary</a><button (click)="clicked2()"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+                    <div *ngIf="knc1" class="sub" >
+                        <ul>
+                         <li><a routerLink="/admin/catagiry/viewcatagary">viewcatagary</a></li>
+                         <li><a routerLink="/admin/catagiry/addcatagary">addcatagary</a></li>
+                        </ul> 
+                     </div>
+                </li>
+                <li class="nor"><span></span><a routerLink="/admin/viewbookings">view bookings</a></li>
+                <li class="nor"><span></span><a routerLink="/admin/viewcustomers">view customers</a></li>
+                <li class="nor"><span></span><a routerLink="/navigate/login">logout</a></li>
+             </ul>
+        </div>
+        <div class="jk"><router-outlet></router-outlet></div>
+    </body>
+</html>

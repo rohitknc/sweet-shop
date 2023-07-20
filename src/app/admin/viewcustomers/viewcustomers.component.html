@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <div><h2>customers</h2></div>
+        <table *ngIf="l;else knc">
+            <thead>
+                <tr>
+                    <th>customer name</th>
+                    <th>customer email</th>
+                    <th>customer pno</th>
+                    <th>customer status</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr *ngFor="let d of data" >
+                <td>{{d['fname']}}</td>
+                <td>{{d['email']}}</td>
+                <td>{{d['pnum']}}</td>
+                <td>{{d['status']}}</td>
+                
+             </tr>
+            </tbody>
+        </table>
+        <ng-template #knc>
+            <div class="manju">no data</div>
+        </ng-template>
+</body>
+</html>

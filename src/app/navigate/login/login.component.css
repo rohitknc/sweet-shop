@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgb(73, 159, 159);
+    height: 100vh;
+   
+    
+
+}
+
+.main
+{   position: relative;
+    top: 30px;
+    border: 2px solid transparent;
+    
+    margin-left: 270px;
+    width:300px;
+    height:300px;
+    
+    align-items: center;
+    border-radius: 2%;
+    border-width: 2px;
+    background-color:white;
+    opacity: 0.7;
+   backdrop-filter: blur(10px);
+    
+}
+h4{
+    top:15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    /* background-color:blueviolet; */
+    width: 68px;
+    border-radius: 13px;
+    left:37%;
+    position: relative;
+}
+.login
+{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left:0px;
+    top: 60px;
+
+    
+    
+    
+}
+
+
+
+button
+{
+    position: relative;
+    padding: 6px 7px;
+    top:20px;
+    
+    width: 120px;
+    height: 25px;
+    background: rgba(11, 240, 175, 0.571);
+    border: 1px solid rgb(55, 234, 49);
+    border-radius: 30px;
+    border-width: 0px;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+button:hover
+{
+    background-color:rgb(13, 247, 40);
+    box-shadow: 0px 0px 15px rgb(58, 226, 43);
+    color: rgb(23, 1, 1);
+}
+
+.k
+{
+    height: 30px;
+    margin-bottom: 13px;
+}
+input{
+    
+    padding: 9px;
+    border: solid 1px blueviolet;
+    top:10px;
+    width: 90%;
+}
+p
+{
+    position: relative;
+    top:40px;
+
+}
+a{
+    position: relative;
+    top:46px;
+    left:-10px;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(232, 10, 36);
+}
+a:hover
+{
+    color:rgb(17, 0, 255);
+}
+input:hover
+{
+    box-shadow: 0px 0px 15px blueviolet;
+}
+
+input::placeholder
+{
+    font-size: 10px;
+    color:darkgreen;
+}
+input:focus
+{
+    border-color:blueviolet;
+    outline: none;
+}
+.pkkk
+{
+    position: relative;
+    text-align: center;
+    top:-150px;
+    left:-42px;
+    color:rgb(255, 149, 0);
+}
+p{
+    font-size: small;
+}
+
+

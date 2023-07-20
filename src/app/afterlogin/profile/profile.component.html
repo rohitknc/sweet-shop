@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h3>profile</h3>
+        <div class="profile">
+            <div class="pf">
+                <img [src]="n">
+            </div>
+        <div class="content">
+        <label for="pt" id="k">choose photo</label><input type="file" id="pt" (change)="plk($event)">
+        <div class="data">
+           <div class="name"><p >Name:</p><p class="sub">{{d.fname}}</p></div>
+           <div class="email">
+            <p>Email:</p><p class="sub">
+            {{d.email}}
+           </p>
+           </div>
+        </div>
+        <div class="edit"><button (click)="knc()">edit</button></div>
+    </div>
+</div>
+    </div>
+<div class="form" id="pl">
+    <div class="cn">enter details</div>
+    <div class="en">
+        <label>Name:</label><input type="text" name="name" placeholder="enter name" [(ngModel)]="ed.name" >
+    </div>
+    <div class="ee">
+        <label>Email:</label>
+        <input type="text" name="email" placeholder="enter email" [(ngModel)]="ed.email" >
+    </div>
+    <div class="submit">
+        <button class="pkk" (click)="knc1()">submit</button>
+    </div>
+</div>
+</body>
+</html>

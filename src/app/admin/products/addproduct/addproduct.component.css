@@ -1,0 +1,54 @@
+.main1
+{
+position: relative; 
+top:20px; 
+left: 30px;
+}
+.sub
+{
+    position: relative;
+   width: 100%;
+   height: 50px;
+}
+h3{
+    color: crimson;
+    text-align: center;
+}
+label
+{
+    position: relative;
+    bottom: 5px;
+}
+button
+{
+    position: relative;
+    padding:4px;
+    width: 150px;
+    border-radius: 10px;
+    border:none;
+    left:35%;
+    top:5px;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+button:hover{
+transform: scale(1.1);
+
+box-shadow: 0 0 0 0.2rem rgba(28, 28, 29, 0.25);
+}
+
+input:focus
+{
+    outline: none;
+}
+input{
+   
+    border:1px solid #c68282;
+    
+    padding: 5px;
+}
+input:focus
+{
+box-shadow: 0 0 0 0.2rem rgba(19, 128, 245, 0.25);
+}
+

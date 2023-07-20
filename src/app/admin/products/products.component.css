@@ -1,0 +1,11 @@
+p
+{
+    position: relative;
+    text-align: center;
+    color: coral;
+    text-decoration: underline;
+    text-transform:capitalize;
+    padding: 3px 3px ;
+    top: 20px;
+    margin-bottom: 30px;
+}

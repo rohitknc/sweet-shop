@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <div><h2>all products</h2></div>
+        <table *ngIf="l;else knc2">
+            <thead>
+                <tr>
+                    
+                    <th>product name</th>
+                    <th>catagary</th>
+                    <th>company</th>
+                    <th>price</th>
+                    <th>delete</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr *ngFor="let product of products" >
+                <td>{{product['pname']}}</td>
+                <td>{{product['pcatagary']}}</td>
+                <td>{{product['pcompany']}}</td>
+                <td>{{product['pprice']}}</td>
+                <td><button (click)="delete1(product['pname'])">delete</button></td>
+             </tr>
+            </tbody>
+        </table>
+        <ng-template #knc2>
+            <div class="manju">
+                no data
+            </div>
+            
+        </ng-template>
+</body>
+</html>

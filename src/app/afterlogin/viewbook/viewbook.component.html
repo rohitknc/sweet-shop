@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h3>Your Bookings </h3>
+       <div class="sub">
+        <div class="email">Email:kanjarla@gmail.com</div>
+        <div class="pname">Product:laddu</div>
+       <div class="status">Status:order placed</div>
+       <div class="price">Price:₹123</div>
+       <div><button (click)="open()">Give rating</button>
+    </div>
+       </div>
+    </div>
+    <div class="open" id="kj">
+        <h4>Give rating here</h4>
+        <div>
+
+            <label class="fa fa-star " (click)="knc(1)"></label>
+            <label class="fa fa-star "  (click)="knc(2)"></label>
+            <label class="fa fa-star "  (click)="knc(3)"></label>
+            <label class="fa fa-star" (click)="knc(4)"></label>
+            <label class="fa fa-star" (click)="knc(5)"></label>
+        </div>
+        
+    </div>
+</body>
+</html>

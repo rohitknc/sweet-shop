@@ -1,0 +1,41 @@
+<html>
+    <body>
+        <div><h2>Bookings
+        </h2></div>
+        <table *ngIf="l;else knc">
+            <thead>
+                <tr>
+                    <th>product name</th>
+                    <th> name</th>
+                    <th> email</th>
+                    <th>contact</th>
+                    <th>city</th>
+                    <th>address</th>
+                    <th>product price</th>
+                    <th>quantity</th>
+                    <th>place order</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr *ngFor="let k of d" >
+                <td>{{k['pname']}}</td>
+                <td>{{k['cname']}}</td>
+                <td>{{k['email']}}</td>
+                <td>{{k['contact']}}</td>
+                <td>{{k['city']}}</td>
+                <td>{{k['address']}}</td>
+                <td>{{k['pprice']}}</td>
+                <td>{{k['quantity']}}</td>
+                <td class="button" (click)="pk(k['pname'],k['email'])">{{k['status']}}</td>
+                
+             </tr>
+            </tbody>
+        </table>
+        <ng-template #knc>
+            <div class="manju">
+                no data 
+            </div>
+           
+        </ng-template>
+</body>
+</html>

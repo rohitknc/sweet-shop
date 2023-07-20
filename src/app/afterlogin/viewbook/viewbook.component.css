@@ -1,0 +1,104 @@
+body
+{
+    overflow: hidden;
+    height: 100vh;
+}
+h3{
+    color: #e81818;
+}
+h4
+{
+    text-transform: capitalize;
+    color: #ff1573;
+}
+.main
+{
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:20px;
+    width: 100%;
+    z-index: 2;
+}
+.checked
+{
+    color:orange ;
+}
+.sub
+{
+
+    position: relative;
+    height: 160px;
+    width: 220px;
+    border: 1px solid #d5aeae;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+    color: rgb(237, 9, 210);
+    padding-top: 10px;
+}
+
+
+.open
+{
+    padding-bottom: 24px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    top:-180px;
+    left: 850px;
+    flex-direction: column;
+    gap:5px;
+    background-color: #1ddfe6;
+    border: 2px solid #b37474;
+    width: 200px;
+    align-items: center;
+    padding: 5px;
+    transition: all 0.5s;
+   
+}
+.open1
+{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    top:-180px;
+    left: 600px;
+    flex-direction: column;
+    gap:5px;
+    background-color:  #1ddfe6;
+    border: 2px solid #b37474;
+    width: 200px;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 24px;
+    transition: all 0.5s;
+   
+   
+}
+#kj div
+{
+    display: flex;
+    gap:15px;
+
+}
+
+button
+{
+    width: 100%;
+    padding: 3px;
+   border:1px solid #ff1573;
+    outline: none;
+ border-radius: 12px;
+ background-color: #ff1573;
+ 
+}
+button:hover
+{
+    box-shadow: 0 0 0 2px #ef4646;
+    color: #f9f5f5;   
+}
+
+

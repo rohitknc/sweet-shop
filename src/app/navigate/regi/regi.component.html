@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+    <body>
+     <form>
+        <div class="main">
+            <h4>CREATE NEW ACCOUNT</h4>
+            <div class="in"><input type="text" placeholder="Full Name" size="30" name="fname" [(ngModel)]="r.fname"></div>
+            <div class="in"><input type="email" placeholder="Email" size="30" name="email" [(ngModel)]="r.email" ></div>
+            <div class="in"><input type="password" placeholder="Password" size="30" name="password" [(ngModel)]="r.password" ></div>
+         
+            <div class="in"><input type="text" placeholder="Phone number" size="30" name="pnum" [(ngModel)]="r.pnum"></div>
+            <div><button (click)="register()">Register</button></div>
+       
+    </div>
+</form>
+    </body>
+</html>

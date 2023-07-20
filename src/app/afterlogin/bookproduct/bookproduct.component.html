@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h2>book product</h2>
+        <div class="main">
+            <div class="knc"><input type="text" placeholder="customer name" size="80" [(ngModel)]="r.cname" name="cname"></div>
+            <div class="knc"><input type="text" placeholder="email id" size="80" [(ngModel)]="r.email" name="email"></div>
+            <div class="knc"><input type="text" placeholder="contact" size="80" [(ngModel)]="r.contact" name="contact"></div>
+            <div class="knc"><input type="text" placeholder="city" size="80" [(ngModel)]="r.city" name="city"></div>
+            <div class="knc"><input type="text" placeholder="adress" size="80" [(ngModel)]="r.address" name="address"></div>
+            <div class="knc"><input type="text" placeholder="product name" size="80" value="{{pname}}"></div>
+            <div class="knc"><input type="text" placeholder="product price" size="80" value="{{pprice}}"></div>
+            <div class="knc"><input type="text" placeholder="quantity" size="80" [(ngModel)]="r.quantity" name="quantity"></div>
+            <button (click)="submit2()">submit</button>
+        </div>
+    </body>
+</html>

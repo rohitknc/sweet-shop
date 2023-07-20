@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+    color: crimson;
+}
+.main
+{
+    position: relative;
+    left:40px;
+    width: 100%;
+    top:40px;
+}
+.sub{
+    position: relative;
+    width: 100%;
+}
+.sub label
+{
+    position: relative;
+    bottom: 10px;
+}
+button
+{
+    position:relative;
+    color: rgb(76, 53, 78);
+    top:20px;
+    text-transform: uppercase;
+    left:36%;
+    padding: 6px 8px;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    background-color: aquamarine;
+} 
+input{
+    
+    border:1px solid #e0aaaa;
+    padding: 5px 5px;
+}   
+input:focus
+{
+    outline: none;
+}
+.pk
+{
+    position: relative;
+}
+.sk
+{
+    position: relative;
+    top:10px;
+}
+button:hover{
+    color: black;
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0.2rem rgba(89, 8, 74, 0.25);
+}
+    
+input:focus
+{
+   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
