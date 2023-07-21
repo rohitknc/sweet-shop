@@ -1,6 +1,6 @@
 body
 {
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100vh;
 }
 h3{
@@ -27,7 +27,7 @@ h4
 }
 .sub
 {
-
+    font-size: 13px;
     position: relative;
     height: 160px;
     width: 220px;
@@ -38,6 +38,7 @@ h4
     padding: 10px;
     color: rgb(237, 9, 210);
     padding-top: 10px;
+    margin-bottom: 6px;
 }
 
 

@@ -67,5 +67,9 @@ export class AdminseviceService {
   {
     return this.http.get("http://localhost:3010/dash");
   }
+  public getview()
+  {
+    return this.http.get("http://localhost:3010/getvi");
+  }
   
 }
