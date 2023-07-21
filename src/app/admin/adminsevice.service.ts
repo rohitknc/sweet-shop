@@ -71,5 +71,9 @@ export class AdminseviceService {
   {
     return this.http.get("http://localhost:3010/getvi");
   }
+  public destroy()
+  {
+    return this.http.get("http://localhost:3010/dest");
+  }
   
 }

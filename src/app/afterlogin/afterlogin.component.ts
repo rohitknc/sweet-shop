@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AdminseviceService } from '../admin/adminsevice.service';
 @Component({
@@ -8,6 +8,13 @@ import { AdminseviceService } from '../admin/adminsevice.service';
 })
 export class AfterloginComponent {
 constructor(private ar:ActivatedRoute,private as:AdminseviceService){}
+ngOnDestroy():void
+{
+   this.as.destroy().subscribe((data:any)=>
+   {
+    
+   })
+}
 lk()
 {
  this.as.logout().subscribe((data:any)=>

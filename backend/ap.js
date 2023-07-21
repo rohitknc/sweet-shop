@@ -310,4 +310,15 @@ r.get("/getvi", (req, res) => {
         }
     })
 })
+r.get("/dest",(req,res)=>
+{
+    conn.query("update signup set status=? where status=?",["inactive","active"],(err,ress)=>
+    {
+        if (err)
+        return err
+        else{
+            res.send("success");
+        }
+    })
+})
 module.exports = r;
